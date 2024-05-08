@@ -1,15 +1,30 @@
 {
   "name": "blog-client",
   "version": "1.0.0",
-  "description": "web-client for my blog",
+  "description": "this is client for my blog",
   "main": "index.js",
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.2.1",
+    "typescript": "5.4.5",
+    "vite": "5.2.11"
+  },
   "scripts": {
-    "test": "''"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": ""
   },
   "keywords": [
-    "typescript",
-    "spa"
+    "react",
+    "vite",
+    "blog",
+    "learning"
   ],
-  "author": "iasavelev",
+  "author": "masiacra",
   "license": "MIT"
 }
